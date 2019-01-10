@@ -29,15 +29,15 @@ model_ln.add(Dense(10, activation='softmax'))
 
 batch_size = 128 (BN > LN >> Vanilla)
 
-![./images/mnist_128.jpg]
+![/image/mnist_128.jpg]
 
 batch_size = 8 (LN > vanilla >> BN)
 
-![./images/mnist_8.jpg]
+![/images/mnist_.jpg]
 
 ## Layer Norm for LSTM
 
-By comparing vanilla and LN in LSTM on imdb dataset (LN >> vanilla)
+By comparing vanilla and LN in LSTM on imdb dataset (LN > vanilla)
 
 ```py
 # https://github.com/cleemesser/keras-layer-norm-work
