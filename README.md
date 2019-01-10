@@ -29,7 +29,11 @@ model_ln.add(Dense(10, activation='softmax'))
 
 batch_size = 128 (BN > LN >> Vanilla)
 
+![./images/mnist_128.jpg]
+
 batch_size = 8 (LN > vanilla >> BN)
+
+![./images/mnist_8.jpg]
 
 ## Layer Norm for LSTM
 
