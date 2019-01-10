@@ -2,7 +2,12 @@
 layer normalization for mlp and lstm in Keras
 
 ln_lstm reference from https://github.com/cleemesser/keras-layer-norm-work
+
 ln_mlp reference from https://github.com/CyberZHG/keras-layer-normalization
+
+download imdb data from http://s3.amazonaws.com/text-datasets/aclImdb.zip
+
+download pretrained glove file from https://nlp.stanford.edu/projects/glove
 
 ## Layer Norm for MLP
 
